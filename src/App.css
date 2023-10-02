@@ -1,0 +1,31 @@
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+ul {
+  list-style: none;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  max-width: calc((33.33% - 160px) * 3);
+  padding: 0;
+  overflow: auto;
+}
+
+li {
+  margin: 16px;
+  flex-grow: 1;
+  max-width: calc(33.33% - 48px);
+  overflow: hidden;
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
